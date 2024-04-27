@@ -2,16 +2,16 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 6
-    API_HASH = "b0efa30bfcf3c419be6cf5db84e62c45"
+    API_ID = 13279715
+    API_HASH = "56e198053932ecf216af72a2ddffcd78"
 
     CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://bwxyihepqyqbwz:180888d0a1d2495e9aff62ae7b16d8dd1c7ec1f6debbd27558cb2eea49f96ced@ec2-52-4-153-146.compute-1.amazonaws.com:5432/dc9u1g5duu57fq"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1002139608040)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://Obito:Obito@obito.uolt8k3.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://telegra.ph/file/ee28ffa1fa36ac19faa41.jpg"
@@ -22,11 +22,11 @@ class Config(object):
     
     ARQ_API_URL = "https://arq.hamker.in" # dont change
     
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "6651687872:AAFPLZBp4P7OEO-Yi-q4YwXNfvx53lQy36Y"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 6171176459  # User id of your telegram account (Must be integer)
+    OWNER_ID = 6529892817  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
