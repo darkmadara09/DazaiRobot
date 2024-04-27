@@ -18,6 +18,10 @@ class Config(object):
 
     SUPPORT_CHAT = "The_Apexx"  # Your Telegram support group chat username where your users will go and bother you
 
+    ARQ_API_KEY = "" #git it form @ARQRobot
+    
+    ARQ_API_URL = "https://arq.hamker.in" # dont change
+    
     TOKEN = ""  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
